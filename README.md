@@ -19,9 +19,8 @@ Check the above repositories for further details on how they work.
 		'underscore',
 		'backbone',
 		'backboneMarionette',
-		'rbmh',
 		'hbs!template/directory/tpl',
-	], function($, _, Backbone, Marionette, RBMH, tpl) {
+	], function($, _, Backbone, Marionette, tpl) {
 		return Backbone.Marionette.ItemView.extend({
 
 			template: tpl
